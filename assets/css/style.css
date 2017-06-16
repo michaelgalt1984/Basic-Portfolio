@@ -25,6 +25,7 @@ a:active {
 
 hr {
 	width: 90%;
+	size: 1px;
 }
 
 body {
@@ -51,6 +52,12 @@ header {
 #h {
 		font-family: 'Georgia', Times, Times New Roman, serif;
 	}
+
+.links {
+	position: relative;
+	vertical-align: center;
+	float: right;
+}
 
 h1 {
 	text-align: center;
