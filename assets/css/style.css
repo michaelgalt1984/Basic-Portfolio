@@ -23,9 +23,33 @@ a:active {
     background: yellow;
 }
 
+.container {
+	margin: 10px;
+	margin-top: 120px;
+}
+
 hr {
 	width: 90%;
 	size: 1px;
+}
+
+header, footer {
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-color: #ffffff;
+	border-color: #cccccc;
+	width: 100%;
+	margin-top: 0px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 73px;
+	border-style: solid;
+	border-width: 8px 0px 0px 0px;
 }
 
 body {
@@ -36,19 +60,6 @@ body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-header, footer {
-    padding: 1em;
-    color: white;
-    background-color: black;
-    clear: left;
-    text-align: center;
-}
-
-header {
-    background-color: #ffffff;
-	border-color: #cccccc;
-}
-
 #h {
 		font-family: 'Georgia', Times, Times New Roman, serif;
 	}
@@ -57,14 +68,20 @@ header {
 	position: relative;
 	vertical-align: center;
 	float: right;
+	font-weight: lighter;
+	margin-right: 200px;
 }
 
 h1 {
 	text-align: center;
+	font-size: 1.25em;
 	width: 200px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	background-color: rgb(1,185,171);
+	position: fixed;
+	margin-top: 0px;
+	margin-left: 210px;
 }
 
 h2 {
@@ -109,8 +126,9 @@ body {
 
 #my_name {
 	width: 150px;
-/*	display: hidden;
-*/}
+	margin-left: inherit;
+
+}
 
 #about, #portfolio, #contact {
 	float: left;
@@ -128,6 +146,10 @@ body {
 	border-color: #dddddd;
 }
 
+#links {
+
+}
+
 #connect_with_me {
 	width: 270px;
 	background-color: #ffffff;
@@ -142,4 +164,12 @@ body {
 
 footer {
 	background-color: #666666;
+	margin-bottom: 0px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	border-style: solid;
+	border-width: 8px 0px 0px 0px;
+	border-color: #4aaaa5;
 }
