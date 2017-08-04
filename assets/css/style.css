@@ -215,6 +215,10 @@ body {
 	margin-top: 100px;
 }
 
+.ext_links img {
+	border-radius: 10%;
+}
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
